@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 export class Nav extends Component {
   render() {
     return (
       <div className="nav-container">
-        <div className="nav-bar">
+        <div className="nav-band">
           <a href="http://">JSEx</a>
         </div>
         <div className="nav-links">
@@ -14,7 +14,7 @@ export class Nav extends Component {
           <a href="http://">SOCIAL MEDIA</a>
         </div>
         <div className="login-btn">
-            <a href="http://">Login</a>
+         <Link to="/register">Register</Link>
         </div>
       </div>
     );

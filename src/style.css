@@ -1,10 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Luckiest+Guy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
+
+/* NAV BAR */
 
 .nav-container{
     display: flex;
@@ -14,27 +18,41 @@
     padding: 25px;
 
 }
-.nav-bar a{
-    font-size: 50px;
+
+.nav-band a{
+    font-size: 60px;
     text-decoration: none;
     margin-left: 50px;
     color: #FFFF00;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+    
 }
 
 .nav-links a{
     padding: 10px;
     color: aliceblue;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .login-btn{
     margin-right: 50px;
-    padding: 15px 20px;
+    padding: 10px 28px;
     background-color: #f62755;
 }
 .login-btn a{
     text-decoration: none;
-}
+    color: aliceblue;}
+
+/* @media only screen and (max-width: 778px) {
+    .nav-container{
+        display: block;
+    }
+} */
 .hero-container{
     display: flex;
     align-items: center;
@@ -51,7 +69,28 @@
     font-style: normal;
     color: white;
 }
+/* HERO SECTION SPAN TAGS */
 .coma{
-    color: #f62755;
+    color: #FFFF00;
     font-size: 10rem;
+}
+.Tech{
+    color: #f62755;
+}
+
+
+/* TRANDING */
+.tranding-container{
+    background-color: #FFFF00;
+}
+.hash{
+    color: #f62755;
+}
+
+.tranding-header h1{
+    text-align:center;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
