@@ -10,7 +10,7 @@ export class Nav extends Component {
         <div className="nav-links">
           <a href="http://">HOME</a>
           <a href="http://">TRENDING</a>
-          <a href="http://">YOUTUBE</a>
+          <a href="http://">AI</a>
           <a href="http://">SOCIAL MEDIA</a>
         </div>
         <div className="login-btn">
