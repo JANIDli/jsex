@@ -13,10 +13,8 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route exact path='register' element={<Registration/>} />
         <Route exact path='login' element={<Login/>} />
-
       </Routes>
     </Router>
   );
 }
-
 export default App;
