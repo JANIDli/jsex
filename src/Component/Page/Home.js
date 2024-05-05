@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Nav from '../Nav'
 import Tranding from '../Tranding'
 import Hero from '../Hero'
+import { CustomSwiper } from '../CustomSwiper'
 
 
 
@@ -12,6 +13,8 @@ export class Home extends Component {
         <Nav/>
         <Hero/>
         <Tranding/>
+        <br />
+        <CustomSwiper/>
       </div>
     )
   }

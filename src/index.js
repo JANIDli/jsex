@@ -6,8 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Import function to register Swiper custom elements
-import { register } from 'swiper/element/bundle';
-register();
+
 
 //react DOM 
 const root = ReactDOM.createRoot(document.getElementById('root'));
